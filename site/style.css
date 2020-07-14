@@ -1,0 +1,53 @@
+body{
+    
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 120%;
+
+    font-weight: 300;
+    color: blue;
+    display: block;
+background-color:  #e6e6e6;
+    
+    
+}
+p{
+    text-align: center;
+     background: linear-gradient(to right, #99e6ff,#99ff99);
+    
+}
+header{
+    text-align: center;
+}
+div{
+    color: crimson;
+}
+h1{
+    color: red;
+    text-align: center;
+}
+ul{
+    list-style: none;
+    
+}
+a:link, a:visited{
+    text-decoration: none;
+    background-color: green;
+    border: 1px soloid blue;
+    color: black;
+    display: block;
+    margin-bottom: 1px;
+    width: 200px;
+    text-align: center;
+    
+    
+}
+a:hover, a:active{
+    background-color: red;
+    color:purple;
+}
+#two div:nth-child(odd){
+background: grey;
+    width: 200px;
+}
+    
