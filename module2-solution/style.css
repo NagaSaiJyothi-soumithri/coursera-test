@@ -1,77 +1,76 @@
-body{
-
-    font-family: sans-serif;
-    margin-bottom: 15px;   
-    background-color: gainsboro;
-    display: block;
-}
-
-*{
+* {
     box-sizing: border-box;
-    border-radius: 10px; 
-    
-}
-
-
-h1{
-    text-align: center;
-    text-transform: capitalize;
-    margin-bottom: 15px;
-    margin-top: 15px;
-}
-
-.row {
-  width: 100%;
-}
-.covid{
-	position: relative;
-	padding : 10px;
-    
-    right: 33px;
-     border: 1px solid black;
-	float: right;  
-}
-#t1{
-    background-color: red;   
-}
-#t2{
-    background-color: aqua; 
-    
-    
-}
-#t3{
-    background-color: dodgerblue;
-    
-}
-p{
-
- border: 1px solid black;
-  background-color: bisque;
-  width: 90%;
-  height: 350px;
-  margin: auto;
-  font-family: serif;
-    text-align: justify;
- 
-  color: black;
-    padding: 40px;
-   word-spacing: 5px;
-    margin-bottom: 15px;
-    
+    margin-left: 0px;
+    margin-right: 0px;
    
+    
+  }
+ html {
+    font-family: sans-serif;
+  }
+h2{
+    text-align: center;
 }
-
-/********** Large devices only **********/
-@media (min-width: 992px) {
-  .col-lg-4{
-		float: left;
-		width: 33.33%;
-	}
+  .column {
+    float: left;
+    padding: 10px;
+    padding-right: 0px;
+    padding-top: 0px;
+    background-color: gainsboro;
+    color:black;
+    border:1px solid black;
+     
+   }
+.row{
+      margin:20px;
+   
+  }
+ .covid{
+      color:black;
+      float:right;
+      border-left: 1px solid black;
+      border-bottom: 1px solid black;
+      padding-left:20px;
+      padding-right: 20px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+     
+  }
+.symptoms{
+    background-color: beige;
 }
-
-/********** Medium devices only **********/
-@media (min-width: 768px) and (max-width: 991px) {
-  .col-md-6{
-		float: left;
-      width: 50%;
+.precautions{
+    background-color: burlywood;
+}
+.history{
+    background-color: silver;
+}
+@media  screen and (min-width: 992px) {
+    .column {
+      width: 31%;
+      margin:10px;
     }
+  }
+@media   (min-width: 768px) and (max-width:991px) {
+    .col1,.col2 {
+      width: 46%;
+    }
+    
+    .col3{
+        width:94%;
+    }
+    .col1,.col2,.col3{
+        margin: 10px;
+    }
+  }
+  @media  (max-width:767px) {
+    .col1,.col2,.col3 {
+      width:87%;
+      margin:10px;
+      
+
+    }
+  }
+  
+ 
+ 
