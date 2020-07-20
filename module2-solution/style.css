@@ -21,10 +21,7 @@ h2{
     border:1px solid black;
      
    }
-.row{
-      margin:20px;
-   
-  }
+
  .covid{
       color:black;
       float:right;
@@ -65,7 +62,7 @@ h2{
   }
   @media  (max-width:767px) {
     .col1,.col2,.col3 {
-      width:87%;
+      width:95%;
       margin:10px;
       
 
