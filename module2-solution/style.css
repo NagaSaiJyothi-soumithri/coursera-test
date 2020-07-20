@@ -2,15 +2,15 @@
     box-sizing: border-box;
     margin-left: 0px;
     margin-right: 0px;
-   
+    font-family: sans-serif;  
+    border-radius: 10px;
     
-  }
- html {
-    font-family: sans-serif;
   }
 h2{
     text-align: center;
 }
+
+
   .column {
     float: left;
     padding: 10px;
@@ -47,17 +47,17 @@ h2{
 }
 @media  screen and (min-width: 992px) {
     .column {
-      width: 31%;
+      width: 30%;
       margin:10px;
     }
   }
 @media   (min-width: 768px) and (max-width:991px) {
     .col1,.col2 {
-      width: 46%;
+      width: 45%;
     }
     
     .col3{
-        width:94%;
+        width:95%;
     }
     .col1,.col2,.col3{
         margin: 10px;
