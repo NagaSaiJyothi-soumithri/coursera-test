@@ -1,30 +1,23 @@
-
 body {
   font-size: 16px;
-  color: #fff;
-  background-color: #61122f;
+  color: black;
+ text-align: center;
   font-family: 'Oxygen', sans-serif;
 }
 
 /** HEADER **/
 #navi {
-  background-color: #f6b319;
+  background-color: gainsboro;
   border-radius: 0;
   border: 0;
 }
 
-#logo-img {
-  background: url('fam.PNG') no-repeat;
-  width: 150px;
-  height: 150px;
-  margin: 10px 15px 10px 0;
-}
 
 .navbar-brand {
   padding-top: 25px;
 }
 
-.navbar-brand h1 { /* Restaurant name */
+.navbar-brand h1 { 
   font-family: 'Lora', serif;
   color: #557c3e;
   font-size: 1.5em;
@@ -62,21 +55,10 @@ body {
   font-size: 1.8em;
 }
 
-#phone {
-  margin-top: 5px;
-}
-#phone a { /* Phone number */
-  text-align: right;
-  padding-bottom: 0;
-}
-#phone div { /* We Deliver */
-  color: #557c3e;
-  text-align: right;
-  padding-right: 15px;
-}
+
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1px solid #61122f;
+  border: 1px solid grey;
 }
 .navbar-header button.navbar-toggle {
   clear: both;
@@ -84,44 +66,33 @@ body {
 }
 /* END HEADER */
 
-/* HOME PAGE */
-.container .jumbotron {
-  box-shadow: 0 0 50px #3F0C1F;
-  border: 2px solid #3F0C1F;
+
+#head-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
 }
 
-#menu-tile, #specials-tile, #map-tile {
-  height: 250px;
+#head-tile {
+    margin-top: 10px;
+ background-color: gainsboro;
+  background-position: center;
+     height: 250px;
   width: 100%;
   margin-bottom: 15px;
   position: relative;
   border: 2px solid #3F0C1F;
   overflow: hidden;
-}
-#menu-tile:hover, #specials-tile:hover, #map-tile:hover {
-  box-shadow: 0 1px 5px 1px #cccccc;
+    padding: 10px;
 }
 
-#menu-tile {
-  background-image:imageurl(pic.JPG);
-  background-position: center;
-    
-}
-#specials-tile {
-  background: url('..pic.JPG') no-repeat;
-  background-position: center;
-    
-}
-
-#menu-tile span, #specials-tile span, #map-tile span {
-  position: absolute;
+#head-tile span {
+  
   bottom: 0;
   right: 0;
   width: 100%;
   text-align: center;
   font-size: 1.6em;
   text-transform: uppercase;
-  background-color: #000;
-  color: #fff;
-  opacity: .8;
+  
+  color: black;
+  
 }
