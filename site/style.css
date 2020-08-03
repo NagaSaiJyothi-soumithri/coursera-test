@@ -50,4 +50,10 @@ a:hover, a:active{
 background: grey;
     width: 200px;
 }
+#ram{
+    background-color: aqua;
+    width: 200px;
+    height: 100px;
+    float:left;
+}
     
