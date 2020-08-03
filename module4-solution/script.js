@@ -1,18 +1,14 @@
 (function () {
 
-var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim","jyoe"];
+var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim","joe"];
 
 for (var i = 0; i < names.length; i++) {
 
-  
   var firstLetter = names[i].charAt(0).toLowerCase();
-
- 
   if (firstLetter === 'j') {
-    byeSpeaker.speak(names[i]);
+    byespeaker.speak(names[i]);
   } else {
-    helloSpeaker.speak(names[i]);
+    hellospeaker.speak(names[i]);
   }
 }
-
 })();
